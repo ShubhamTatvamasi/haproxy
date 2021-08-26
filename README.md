@@ -11,4 +11,7 @@ install haproxy:
 sudo apt install haproxy=2.4.\*
 ```
 
-
+restart haproxy:
+```bash
+sudo systemctl restart haproxy
+```
