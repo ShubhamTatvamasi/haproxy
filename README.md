@@ -11,6 +11,11 @@ install haproxy:
 sudo apt install haproxy=2.4.\*
 ```
 
+check config file:
+```bash
+sudo haproxy -f /etc/haproxy/haproxy.cfg -c
+```
+
 restart haproxy:
 ```bash
 sudo systemctl restart haproxy
