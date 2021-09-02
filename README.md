@@ -20,3 +20,8 @@ restart haproxy:
 ```bash
 sudo systemctl restart haproxy
 ```
+
+check status:
+```bash
+sudo systemctl status haproxy
+```
